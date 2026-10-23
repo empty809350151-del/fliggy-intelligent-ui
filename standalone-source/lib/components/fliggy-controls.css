@@ -1,0 +1,50 @@
+/* Component geometry from 2× Figma; approved layout spacing remains 1×. */
+.iui-range-shell { position: relative; }
+.iui-range::-webkit-slider-runnable-track { height: 6px; border: 0; background: linear-gradient(to right, #6666ff var(--iui-range-progress), #e2e4e9 var(--iui-range-progress)); }
+.iui-range::-webkit-slider-thumb { width: 21px; height: 21px; margin-top: -7.5px; border: 0; background: transparent; box-shadow: none; }
+.iui-range::-moz-range-track { height: 6px; background: #e2e4e9; }
+.iui-range::-moz-range-thumb { width: 21px; height: 21px; border: 0; background: transparent; }
+.iui-range::-moz-range-progress { height: 6px; background: #6666ff; border-radius: 99px; }
+.iui-range-art { position: absolute; pointer-events: none; left: calc(10.5px + (100% - 21px) * var(--iui-range-ratio, 0)); top: 8px; width: 21px; height: 21px; transform: translateX(-50%); }
+.iui-range-art img { position: absolute; left: -4.75px; top: 0; max-width: none; transform: scale(.5); transform-origin: top left; }
+.iui-slider-marks { height: 30px; margin-top: 0; color: var(--iui-faint); font-size: 12px; }
+.iui-slider-marks > span { padding-top: 12px; }
+.iui-slider-marks > span::before { content: ""; position: absolute; top: 0; left: 50%; width: 1px; height: 6px; background: #d2d4d9; }
+.iui-check > input, .iui-choice > input,
+.iui-pressable[aria-pressed] > .iui-row > .iui-icon[data-selection-icon]:first-child {
+  appearance: none; -webkit-appearance: none; position: relative; opacity: 1;
+  display: inline-grid; place-content: center; flex: 0 0 21px;
+  width: 21px; height: 21px; margin: 0; border: 1.5px solid #d2d4d9;
+  border-radius: 50%; background: white; cursor: pointer;
+}
+.iui-check > input:checked, .iui-choice > input:checked,
+.iui-pressable[aria-pressed="true"] > .iui-row > .iui-icon[data-selection-icon]:first-child { background: #6666ff; border-color: #6666ff; }
+.iui-check > input:checked::after, .iui-choice > input:checked::after,
+.iui-pressable[aria-pressed="true"] > .iui-row > .iui-icon[data-selection-icon]:first-child::after {
+  content: ""; width: 10px; height: 6px; margin-top: -2px; border-left: 2px solid white; border-bottom: 2px solid white; transform: rotate(-45deg);
+}
+.iui-pressable[aria-pressed] > .iui-row > .iui-icon[data-selection-icon]:first-child > svg { display: none; }
+.iui-check > input:focus-visible, .iui-choice > input:focus-visible { outline: 2px solid #6666ff; outline-offset: 3px; }
+.iui-choice { gap: 12px; }
+.iui-radio-pills .iui-choice.is-selected, .iui-radio-cards .iui-choice.is-selected { background: transparent; color: var(--iui-ink); border-color: var(--iui-border); box-shadow: none; }
+.iui-table-frame { min-width: 0; overflow: hidden; border: 1px solid #e7e8ed; border-radius: var(--iui-radius-xl); background: var(--iui-canvas); }
+.iui-table-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 36px; padding: 6px 12px; background: #f7f8fa; color: #0f131a; }
+.iui-table-toolbar strong { font-size: 15px; font-weight: 500; }
+.iui-table-toolbar > div { display: flex; gap: 12px; }
+.iui-table-toolbar button { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; color: #5c5f66; font-size: 12px; }
+.iui-table-toolbar button:focus-visible { outline: 2px solid #6666ff; outline-offset: 2px; }
+.iui-table-icon { position: relative; display: inline-block; width: 16px; height: 16px; flex-shrink: 0; }
+.iui-table-icon img { position: absolute; max-width: none; transform: scale(.5); transform-origin: top left; }
+.iui-table-frame .iui-table-scroll, .iui-table-dialog .iui-table-scroll { border-radius: 0; }
+.iui-table-frame .iui-table, .iui-table-dialog .iui-table { border-collapse: separate; border-spacing: 0; }
+/* The frame owns the perimeter; cells draw each internal edge exactly once.
+   Avoid collapsed half-pixel borders doubling the left edge at rounded corners. */
+.iui-table-frame .iui-table :is(th,td), .iui-table-dialog .iui-table :is(th,td) { border: 0; border-top: 1px solid #e7e8ed; border-right: 1px solid #e7e8ed; padding: 6px 12px; min-width: 76px; }
+.iui-table-frame .iui-table tr > :last-child, .iui-table-dialog .iui-table tr > :last-child { border-right: 0; }
+.iui-table-frame .iui-table th, .iui-table-dialog .iui-table th { background: #f7f8fa; }
+.iui-table-status { font-size: 12px; padding: 6px 12px; }
+.iui-table-dialog { position: fixed; inset: 0; margin: auto; width: calc(100vw - 24px); max-width: none; max-height: calc(100dvh - 24px); padding: 0; border: 1px solid #e7e8ed; border-radius: 12px; background: var(--iui-canvas); color: var(--iui-ink); overflow: auto; }
+.iui-table-dialog::backdrop { background: #0006; }
+/* Compatibility for already saved table modules: remove the card shell. */
+.iui-card.iui-travel-table, .iui-card.iui-travel-table-left { padding: 0; border: 0; background: transparent; overflow: visible; }
+.iui-travel-table .iui-travel-header, .iui-travel-table-left .iui-travel-header { margin-bottom: 12px; }

@@ -1,0 +1,127 @@
+/* Figma Fliggy-Style 4:90. Exact source values: ../fliggy-colors.json.
+   Light palette only; dark mode retains its existing tokens. */
+:root {
+  --fliggy-color-darkgray: #0f131a;
+  --fliggy-color-label: #f7f8fa;
+  --fliggy-color-auxiliary: #d2d4d9;
+  --fliggy-color-brand-1: #ffe033;
+  --fliggy-color-brand-3: #fff099;
+  --fliggy-color-brand-2: #ffe866;
+  --fliggy-color-brand-4: #fff7cc;
+  --fliggy-color-brand-5: #fffceb;
+  --fliggy-color-white: #ffffff;
+  --fliggy-color-midgray: #5c5f66;
+  --fliggy-color-pay-1: #ff5533;
+  --fliggy-color-pay-3: #ffaa99;
+  --fliggy-color-pay-2: #ff8066;
+  --fliggy-color-pay-4: #ffdfd9;
+  --fliggy-color-pay-5: #fff2f0;
+  --fliggy-color-blue-1: #4da6ff;
+  --fliggy-color-blue-3: #b3d8ff;
+  --fliggy-color-blue-2: #80bfff;
+  --fliggy-color-blue-4: #e6f2ff;
+  --fliggy-color-blue-5: #f2f8ff;
+  --fliggy-color-book-1: #ff8c1a;
+  --fliggy-color-book-3: #ffbf80;
+  --fliggy-color-book-2: #ffa54d;
+  --fliggy-color-book-4: #ffe5cc;
+  --fliggy-color-book-5: #fff5eb;
+  --fliggy-color-secondary: #6666ff;
+  --fliggy-color-indigo-3: #ccccff;
+  --fliggy-color-indigo-2: #9999ff;
+  --fliggy-color-indigo-4: #ebebff;
+  --fliggy-color-indigo-5: #f5f5ff;
+  --fliggy-color-warning-1: #ff3333;
+  --fliggy-color-warning-3: #ff9999;
+  --fliggy-color-warning-2: #ff6666;
+  --fliggy-color-warning-4: #ffd9d9;
+  --fliggy-color-warning-5: #fff0f0;
+  --fliggy-color-green-0: #149aa8;
+  --fliggy-color-green-3: #b8e1e6;
+  --fliggy-color-green-2: #7ac4cc;
+  --fliggy-color-green-4: #e7f5f6;
+  --fliggy-color-green-5: #f2feff;
+  --fliggy-color-bg: #f2f3f5;
+  --fliggy-color-green-1: #47b259;
+  --fliggy-color-lightgray: #919499;
+  --fliggy-color-safeguard-1: #805540;
+  --fliggy-color-safeguard-3: #feebd8;
+  --fliggy-color-safeguard-2: #efd0a4;
+  --fliggy-color-safeguard-4: #fef5ec;
+  --fliggy-color-safeguard-5: #5d3521;
+}
+
+:root:not([data-openui-theme="dark"]),
+[data-theme="light"] {
+  --iui-canvas: var(--fliggy-color-white);
+  --iui-page-bg: #f5f5ff;
+  --iui-ink: var(--fliggy-color-darkgray);
+  --iui-ink-hover: var(--fliggy-color-midgray);
+  --iui-on-ink: var(--fliggy-color-white);
+  --iui-muted: var(--fliggy-color-midgray);
+  --iui-faint: var(--fliggy-color-lightgray);
+  --iui-border: var(--fliggy-color-bg);
+  --iui-border-strong: var(--fliggy-color-auxiliary);
+  --iui-surface: var(--fliggy-color-label);
+  --iui-surface-hover: var(--fliggy-color-bg);
+  --iui-surface-strong: var(--fliggy-color-bg);
+  --iui-hover: var(--fliggy-color-label);
+  --iui-pressed: var(--fliggy-color-bg);
+  --iui-range-track: var(--fliggy-color-bg);
+  --iui-range-thumb: var(--fliggy-color-secondary);
+  --iui-focus: var(--fliggy-color-brand-1);
+  --iui-brand: var(--fliggy-color-secondary);
+  --iui-brand-hover: color-mix(in srgb, var(--fliggy-color-secondary) 90%, black);
+  --iui-on-brand: var(--fliggy-color-white);
+  --iui-info: var(--fliggy-color-brand-1);
+  --iui-info-soft: var(--fliggy-color-brand-5);
+  --iui-success: var(--fliggy-color-green-0);
+  --iui-success-soft: var(--fliggy-color-green-5);
+  --iui-warning: var(--fliggy-color-warning-1);
+  --iui-warning-soft: var(--fliggy-color-warning-5);
+  --iui-danger: var(--fliggy-color-warning-1);
+  --iui-danger-soft: var(--fliggy-color-warning-5);
+  --iui-purple: var(--fliggy-color-brand-1);
+  --iui-purple-soft: var(--fliggy-color-brand-5);
+  --iui-badge-neutral-soft: var(--fliggy-color-label);
+  --iui-badge-success: var(--fliggy-color-green-0);
+  --iui-badge-success-soft: var(--fliggy-color-green-5);
+  --iui-badge-warning: var(--fliggy-color-warning-1);
+  --iui-badge-warning-soft: var(--fliggy-color-warning-5);
+  --iui-badge-danger: var(--fliggy-color-warning-1);
+  --iui-badge-danger-soft: var(--fliggy-color-warning-5);
+  --iui-badge-purple: var(--fliggy-color-brand-1);
+  --iui-badge-purple-soft: var(--fliggy-color-brand-5);
+  --iui-chart-1: var(--fliggy-color-blue-1);
+  --iui-chart-2: var(--fliggy-color-green-0);
+  --iui-chart-3: var(--fliggy-color-brand-1);
+  --iui-chart-4: var(--fliggy-color-book-1);
+  --iui-chart-5: var(--fliggy-color-pay-1);
+  --iui-chart-6: var(--fliggy-color-safeguard-1);
+  --iui-map-water: var(--fliggy-color-blue-4);
+}
+
+/* Stop light-only overrides inherited from :root at a dark gallery boundary. */
+[data-theme="dark"] {
+  --iui-canvas: var(--openui-foreground, #171717);
+  --iui-page-bg: var(--iui-canvas);
+  --iui-ink: var(--openui-text-neutral-primary, #f5f5f5);
+  --iui-ink-hover: color-mix(in oklch, var(--iui-ink) 82%, var(--iui-canvas));
+  --iui-on-ink: var(--openui-foreground, #171717);
+  --iui-muted: var(--openui-text-neutral-secondary, #ababab);
+  --iui-faint: var(--iui-muted);
+  --iui-border: color-mix(in srgb, var(--iui-ink) 8%, transparent);
+  --iui-border-strong: color-mix(in srgb, var(--iui-ink) 10%, transparent);
+  --iui-surface: color-mix(in srgb, var(--iui-ink) 4%, transparent);
+  --iui-surface-hover: color-mix(in srgb, var(--iui-ink) 8%, transparent);
+  --iui-surface-strong: var(--iui-surface-hover);
+  --iui-hover: color-mix(in srgb, var(--iui-ink) 5%, transparent);
+  --iui-pressed: var(--iui-surface-hover);
+  --iui-range-track: color-mix(in srgb, var(--iui-ink) 6%, transparent);
+  --iui-range-thumb: var(--iui-ink);
+  --iui-focus: var(--iui-ink);
+  --iui-brand: var(--iui-ink);
+  --iui-brand-hover: var(--iui-ink-hover);
+  --iui-on-brand: var(--iui-on-ink);
+  --iui-badge-neutral-soft: var(--iui-range-track);
+}

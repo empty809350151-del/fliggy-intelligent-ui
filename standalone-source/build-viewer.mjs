@@ -1,0 +1,3 @@
+import esbuild from 'esbuild';
+import fs from 'node:fs/promises';
+await esbuild.build({entryPoints:['standalone-source/viewer.tsx'],bundle:true,outfile:'standalone-source/build/viewer.js',format:'iife',platform:'browser',minify:true,define:{'process.env.NODE_ENV':'"production"','process.env.NEXT_PUBLIC_BASE_PATH':'""'},loader:{'.woff2':'dataurl','.woff':'dataurl','.ttf':'dataurl'},plugins:[{name:'raw',setup(b){b.onResolve({filter:/\?raw$/},args=>({path:args.path.slice(0,-4),namespace:'raw'}));b.onLoad({filter:/.*/,namespace:'raw'},async args=>({contents:await fs.readFile('node_modules/'+args.path,'utf8'),loader:'text'}))}}]});

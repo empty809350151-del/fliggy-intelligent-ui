@@ -1,0 +1,170 @@
+[
+  {
+    "key": "generic-knowledge",
+    "scene": "generic",
+    "title": "知识正文与原理图",
+    "prompt": "“解释光合作用是什么，再配个简单原理图。”"
+  },
+  {
+    "key": "generic-explore",
+    "scene": "generic",
+    "title": "地图与地点探索列表",
+    "prompt": "“西湖附近有哪些值得去的地方？帮我按类型看看。”"
+  },
+  {
+    "key": "generic-compare",
+    "scene": "generic",
+    "title": "可选择的商品比较页",
+    "prompt": "“对比两款手机的外观参数，选好后帮我给购买建议。”"
+  },
+  {
+    "key": "generic-travel",
+    "scene": "generic",
+    "title": "地图联动图文行程",
+    "prompt": "“帮我规划下杭州西湖游玩的计划，能调整节奏。”"
+  },
+  {
+    "key": "generic-budget",
+    "scene": "generic",
+    "title": "可调预算与费用图表",
+    "prompt": "“做个旅行预算和分账工具，人数天数可调，标出超支。”"
+  },
+  {
+    "key": "generic-howto",
+    "scene": "generic",
+    "title": "保留进度的图解教程",
+    "prompt": "“教我组装书架，每步配图，能勾选，追问时保留进度。”"
+  },
+  {
+    "key": "generic-learn",
+    "scene": "generic",
+    "title": "翻卡与计分练习",
+    "prompt": "“帮我记西班牙语单词，可翻卡、随机抽题和计分。”"
+  },
+  {
+    "key": "generic-sales",
+    "scene": "generic",
+    "title": "数据联动的销售仪表盘",
+    "prompt": "“看近一个月销售趋势，能筛区域，并看明细排名。”"
+  },
+  {
+    "key": "generic-create",
+    "scene": "generic",
+    "title": "可调整的房间配色预览",
+    "prompt": "“帮我配一套客厅颜色，我想调整墙面和沙发看看。”"
+  },
+  {
+    "key": "generic-play",
+    "scene": "generic",
+    "title": "可玩的复古街机游戏",
+    "prompt": "“做一个能直接玩的复古太空射击小游戏。”"
+  },
+  {
+    "key": "ota-knowledge",
+    "scene": "ota",
+    "title": "预订规则解读器",
+    "prompt": "这间房写着限时免费取消，到底什么时候之前能退？早餐和儿童入住怎么算？"
+  },
+  {
+    "key": "ota-explore",
+    "scene": "ota",
+    "title": "亲子目的地筛选",
+    "prompt": "从杭州出发，周末带孩子玩两天，不想太累，有哪些地方合适？"
+  },
+  {
+    "key": "ota-compare",
+    "scene": "ota",
+    "title": "酒店同维度比较",
+    "prompt": "这三家酒店哪家更适合带老人住？帮我比较位置、房间、早餐和总价。"
+  },
+  {
+    "key": "ota-travel",
+    "scene": "ota",
+    "title": "京都四天可调行程",
+    "prompt": "帮我排一个京都四天行程，每天别太赶，下雨时能换成室内活动。"
+  },
+  {
+    "key": "ota-budget",
+    "scene": "ota",
+    "title": "旅行预算情景计算器",
+    "prompt": "我们两大一小去三亚五天，预算一万。机票和酒店选不同档次，总共会差多少？"
+  },
+  {
+    "key": "ota-howto",
+    "scene": "ota",
+    "title": "机场出发步骤指南",
+    "prompt": "第一次坐国际航班，从到机场到登机要做什么？按顺序带我看一下。"
+  },
+  {
+    "key": "ota-learn",
+    "scene": "ota",
+    "title": "酒店入住对话练习",
+    "prompt": "我第一次去日本，陪我练一下酒店入住。你当前台，一句一句来，我说错了再提醒。"
+  },
+  {
+    "key": "ota-sales",
+    "scene": "ota",
+    "title": "航班价格观察台",
+    "prompt": "这是我收藏的航班最近两周价格，帮我看看波动，换一天出发能省多少？"
+  },
+  {
+    "key": "ota-create",
+    "scene": "ota",
+    "title": "旅行提案编辑器",
+    "prompt": "把这些想去的地方整理成一份能发给朋友的旅行提案，我想修改封面和说明。"
+  },
+  {
+    "key": "ota-play",
+    "scene": "ota",
+    "title": "机场观察小游戏",
+    "prompt": "做个给六岁孩子玩的机场寻宝小游戏，不跑远、不打扰别人，找到一项就能打勾。"
+  },
+  {
+    "key": "component-map",
+    "scene": "component",
+    "title": "宠物友好自驾过夜路线",
+    "prompt": "我想带狗自驾出去，最好能住下来，不是当天来回给我地图的路线，以及滑块筛选距离和价格"
+  },
+  {
+    "key": "component-checklist",
+    "scene": "component",
+    "title": "川西大环线出发核对清单",
+    "prompt": "明天出发去川西大环线，需要准备什么？给我个核对清单"
+  },
+  {
+    "key": "ota-sanya-day",
+    "scene": "ota",
+    "title": "三亚日游与夜间路线",
+    "prompt": "从三亚瑞吉度假酒店出发，晚上再回到酒店，一天行程怎么安排？晚上还想逛夜市和酒吧"
+  },
+  {
+    "key": "ota-west-checklist",
+    "scene": "ota",
+    "title": "川西大环线出发核对清单",
+    "prompt": "明天出发去川西大环线，需要准备什么？给我个核对清单"
+  },
+  {
+    "key": "ota-family-pet",
+    "scene": "ota",
+    "title": "机票退改申请信息表",
+    "prompt": "我想申请机票退改，让我填写订单号、原航班、退改原因和期望的新日期，整理出需要提交的信息。"
+  },
+  {
+    "key": "ota-team-split",
+    "scene": "ota",
+    "title": "团建吃住行均摊计算器",
+    "prompt": "我们团建出行帮我根据吃住行计划计算人均均摊"
+  },
+  {
+    "key": "ota-reschedule",
+    "scene": "ota",
+    "title": "机票酒店整体改期方案",
+    "prompt": "我有事没办法周六出发了，帮我把之前预订好的机票和酒店平移到之后的时间"
+  },
+  {
+    "key": "component-pet-hotel",
+    "scene": "component",
+    "title": "宠物友好酒店筛选",
+    "prompt": "想找一家适合带宠物入住的酒店，让我填写宠物种类、体重、入住日期和目的地，筛选符合条件的住宿。"
+  }
+]

@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0 solid;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* Default text takes the theme's Regular weight and tracking, like the
+   react-ui typography tokens; grayscale smoothing keeps macOS from
+   rendering text a shade heavier. */
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-variation-settings: normal;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+b,
+strong {
+  font-weight: 500;
+  font-variation-settings: normal;
+}
+
+.chat-shell {
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+/* Conversation canvas is distinct from white component/input surfaces. */
+.chat-shell .openui-agent-container > .openui-agent-thread-container,
+.chat-shell .openui-agent-container:not(.openui-agent-container--mobile) > .openui-agent-thread-container,
+.chat-shell .openui-agent-thread-container__loading,
+.chat-shell .openui-agent-thread-detailed-view-panel {
+  background: var(--openui-background, #f5f5ff);
+}
+.chat-shell .openui-agent-thread-scroll-container::before {
+  background: linear-gradient(to bottom, var(--openui-background, #f5f5ff), transparent);
+}
+.chat-shell .openui-agent-thread-scroll-container::after {
+  background: linear-gradient(to top, var(--openui-background, #f5f5ff), transparent);
+}
+
+/* These react-ui surfaces have fixed font rules outside its theme shorthands. */
+.chat-shell .openui-agent-welcome-screen__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+.chat-shell .openui-agent-desktop-welcome-composer__input,
+.chat-shell .openui-agent-thread-composer__input {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.welcome-mascot {
+  width: 112px;
+  height: auto;
+}
+
+/* Eight starters: two rows of four cards instead of one squeezed row. */
+.chat-shell .openui-agent-conversation-starter--card {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* Figma 40995:26219, component geometry and typography converted from 2×.
+   Explicit padding also overrides react-ui's multiline padding variant. */
+.chat-shell .openui-shell-thread-message-user__content,
+.chat-shell .openui-shell-thread-message-user__content[data-multiline] {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #0f131a;
+  background: linear-gradient(180deg, #e4e4ff 0%, #ededff 100%);
+  border-radius: 18px;
+  padding: 15px;
+  width: fit-content;
+  max-width: min(300px, 100%);
+  overflow-wrap: anywhere;
+}

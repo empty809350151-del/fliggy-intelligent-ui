@@ -1,0 +1,50 @@
+import { createTheme } from "@openuidev/react-ui";
+import c from "./fliggy-colors.json";
+import { fliggyTypographyTheme } from "./fliggy-typography";
+import { fliggyLayoutTheme } from "./fliggy-layout";
+
+export const fliggyDarkTheme = createTheme({ ...fliggyTypographyTheme, ...fliggyLayoutTheme });
+
+export const fliggyLightTheme = createTheme({
+  ...fliggyTypographyTheme,
+  ...fliggyLayoutTheme,
+  background: "#F5F5FF",
+  foreground: c.color_white,
+  popoverBackground: c.color_white,
+  sunkLight: c.color_label,
+  sunk: c.color_bg,
+  sunkDeep: c.color_auxiliary,
+  textNeutralPrimary: c.color_darkgray,
+  textNeutralSecondary: c.color_midgray,
+  textNeutralTertiary: c.color_lightgray,
+  textNeutralLink: c.color_darkgray,
+  textBrand: c.color_secondary,
+  textAccentPrimary: c.color_white,
+  textAccentSecondary: c.color_midgray,
+  textAccentTertiary: c.color_lightgray,
+  textWhite: c.color_white,
+  textBlack: c.color_darkgray,
+  interactiveAccentDefault: c.color_secondary,
+  interactiveAccentHover: "color-mix(in srgb, #6666ff 90%, black)",
+  interactiveAccentPressed: "color-mix(in srgb, #6666ff 80%, black)",
+  interactiveAccentDisabled: c.color_indigo_5,
+  borderDefault: c.color_bg,
+  borderInteractive: c.color_auxiliary,
+  borderInteractiveEmphasis: c.color_midgray,
+  borderInteractiveSelected: c.color_brand_1,
+  borderAccent: c.color_secondary,
+  borderAccentEmphasis: "color-mix(in srgb, #6666ff 90%, black)",
+  borderAccentSelected: c.color_brand_1,
+  infoBackground: c.color_brand_5,
+  textInfoPrimary: c.color_brand_1,
+  successBackground: c.color_green_5,
+  textSuccessPrimary: c.Color_green_0,
+  alertBackground: c.color_warning_5,
+  textAlertPrimary: c.color_warning_1,
+  dangerBackground: c.color_warning_5,
+  textDangerPrimary: c.color_warning_1,
+  purpleBackground: c.color_brand_5,
+  textPurplePrimary: c.color_brand_1,
+  chatUserResponseBg: c.color_indigo_5,
+  chatUserResponseText: c.color_darkgray,
+});

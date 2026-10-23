@@ -1,0 +1,10 @@
+import { fileURLToPath } from 'node:url';
+import { build } from 'esbuild';
+import { mkdir, writeFile } from 'node:fs/promises';
+const dir = new URL('.',import.meta.url);
+const result = await build({entryPoints:[fileURLToPath(new URL('app.tsx',dir))],bundle:true,write:false,outdir:fileURLToPath(new URL('dist',dir)),format:'iife',platform:'browser',minify:true,jsx:'automatic',define:{'process.env.NODE_ENV':'"production"','process.env.NEXT_PUBLIC_BASE_PATH':'""'},loader:{'.woff':'dataurl','.woff2':'dataurl','.ttf':'dataurl'}});
+const js=result.outputFiles.find(f=>f.path.endsWith('.js')).text.replace(/<\/script/gi,'<\\/script');
+const css=result.outputFiles.find(f=>f.path.endsWith('.css'))?.text || '';
+await mkdir(new URL('dist',dir),{recursive:true});
+await writeFile(new URL('dist/app.html',dir),`<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Intelligent UI</title><style>html,body{margin:0}*{box-sizing:border-box}${css}</style></head><body><div id="root"></div><script>${js}</script></body></html>`);
+console.log('Built self-contained MCP App.');

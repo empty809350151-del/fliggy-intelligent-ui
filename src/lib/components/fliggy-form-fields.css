@@ -1,0 +1,47 @@
+/* Figma CHVhiSaLjChzWOMTAtnpZe 263:1342.
+   Filled 263:1342, empty 268:1399, focused 268:1512.
+   This form-specific update uses 2× conversion including internal spacing. */
+.iui-travel-field,
+.iui-field:has(> input.iui-input) {
+  display:grid;grid-template-columns:78px minmax(0,1fr);align-items:start;
+  column-gap:12px;row-gap:0;padding-block:12px;background:var(--iui-canvas);
+  border:0;border-bottom:.5px solid var(--iui-border);
+}
+.iui-travel-field + .iui-travel-field {border-top:0}
+.iui-travel-field-label,
+.iui-field:has(> input.iui-input) > .iui-label {
+  display:flex;align-items:center;min-height:21px;padding:0;margin:0;
+  color:var(--iui-faint);font-size:14px;font-weight:400;line-height:1.4;
+}
+.iui-travel-field-content {gap:6px}
+.iui-field > input.iui-input,
+.iui-travel-field .iui-input {
+  min-height:21px;height:21px;padding:0;border:0;border-radius:0;
+  background:transparent;color:var(--iui-muted);font-family:var(--iui-font);
+  font-size:14px;font-weight:500;line-height:20px;box-shadow:none;
+}
+.iui-field > input.iui-input::placeholder,
+.iui-travel-field .iui-input::placeholder {color:var(--iui-faint);font-weight:500}
+.iui-field > input.iui-input:focus,
+.iui-travel-field .iui-input:focus {border:0;box-shadow:none}
+.iui-field > input.iui-input:focus-visible,
+.iui-travel-field .iui-input:focus-visible {outline:none;caret-color:#000}
+/* FieldRow already renders the visible label; keep the nested native label accessible. */
+.iui-travel-field .iui-field,
+.iui-travel-field .iui-field:has(> input.iui-input) {display:flex;padding:0;border:0;background:transparent;gap:0}
+.iui-travel-field .iui-field > .iui-label {
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip-path:inset(50%);white-space:nowrap;
+}
+.iui-travel-field .iui-textarea {height:auto;min-height:84px;resize:vertical}
+.iui-travel-field .iui-select {padding-right:18px}
+.iui-travel-field-note,.iui-travel-field-error {margin:0}
+
+/* The active design is an empty field with its native caret, no placeholder/frame. */
+.iui-field > input.iui-input:focus::placeholder,
+.iui-travel-field .iui-input:focus::placeholder {color:transparent}
+/* Internal row padding already provides separation; do not double it with stack gap. */
+:is(.iui-travel-content,.iui-col,.iui-form):has(> .iui-travel-field) {row-gap:0 !important}
+:is(.iui-travel-content,.iui-col,.iui-form):has(> .iui-travel-field) > :not(.iui-travel-field) {margin-block:6px}
+.iui-travel-field-content {gap:5px}
+.iui-travel-field-error {color:#ff5745;font-size:12px;line-height:1.4}

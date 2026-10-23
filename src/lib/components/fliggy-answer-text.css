@@ -1,0 +1,30 @@
+/* Answer prose only. User's 2× specification: 42/36/34/34 → 21/18/17/17.
+   Explicit visual containers keep the already accepted component typography.
+   The second scope is the real-Renderer acceptance example. */
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) :is(.iui-text, .iui-list-title, .iui-list-description, .iui-markdown, .iui-markdown p, .iui-markdown li, .openui-markdown-renderer, .openui-markdown-renderer p, .openui-markdown-renderer li, .openui-markdown-renderer ul, .openui-markdown-renderer ol):not(:where(.iui-card, .iui-grid, .iui-box, .iui-form, .iui-carousel, .iui-popover, .iui-table, .iui-pressable) *) {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) :is(.iui-title, .iui-md-h, .openui-markdown-renderer h1, .openui-markdown-renderer h2, .openui-markdown-renderer h3):not(:where(.iui-card, .iui-grid, .iui-box, .iui-form, .iui-carousel, .iui-popover, .iui-table, .iui-pressable) *) {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+}
+/* Existing Title's display sizes represent the main prose heading; lg is H2. */
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) :is(.iui-title-xl, .iui-title-2xl, .iui-title-3xl, .iui-md-h1, .openui-markdown-renderer h1):not(:where(.iui-card, .iui-grid, .iui-box, .iui-form, .iui-carousel, .iui-popover, .iui-table, .iui-pressable) *) {
+  font-size: 21px;
+}
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) :is(.iui-title-lg, .iui-md-h2, .openui-markdown-renderer h2):not(:where(.iui-card, .iui-grid, .iui-box, .iui-form, .iui-carousel, .iui-popover, .iui-table, .iui-pressable) *) {
+  font-size: 18px;
+}
+/* react-ui otherwise fixes inline links and emphasis to its body shorthand. */
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) .openui-markdown-renderer :is(a, strong),
+:is(.openui-shell-thread-message-assistant__content, .fliggy-answer-text) .openui-markdown-renderer li::marker {
+  font-size: inherit;
+  line-height: inherit;
+}

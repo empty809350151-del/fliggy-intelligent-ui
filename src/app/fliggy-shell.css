@@ -1,0 +1,113 @@
+.chat-shell .openui-agent-container--mobile .openui-agent-mobile-header {
+  position: relative; min-height: 45px; height: 45px; flex: 0 0 45px;
+  padding: 10px 9px 2px; border-radius: 12px 12px 0 0;
+  background: linear-gradient(180deg, #6666ff5c, #6666ff00);
+}
+.chat-shell .openui-agent-mobile-header::before {
+  content: url("../../public/fliggy-shell/handle.svg");
+  position: absolute; top: 0; left: 50%; width: 80px; height: 20px;
+  transform: translateX(-50%) scale(.5); transform-origin: center top; pointer-events: none;
+}
+.chat-shell .openui-agent-mobile-header-logo-container { visibility: hidden; }
+.chat-shell .openui-agent-mobile-header .openui-icon-button {
+  position: relative; width: 30px; height: 30px; min-width: 30px; padding: 3px;
+  border: 0; background: transparent; box-shadow: none; border-radius: 6px;
+}
+.chat-shell .openui-agent-mobile-header .openui-icon-button svg { visibility: hidden; }
+.chat-shell .openui-agent-mobile-header .openui-icon-button::after {
+  content: url("../../public/fliggy-shell/history.svg");
+  position: absolute; left: 3px; top: 3px; width: 48px; height: 48px;
+  transform: scale(.5); transform-origin: top left; pointer-events: none;
+}
+.chat-shell .openui-agent-mobile-header .openui-agent-mobile-header-new-chat::after { content: url("../../public/fliggy-shell/new-chat.svg"); }
+.chat-shell .openui-agent-mobile-header .openui-agent-mobile-header-new-chat:not(:disabled):is(:hover,:active) { background: #6666ff14; }
+.fliggy-composer { width: 100%; max-width: 780px; margin: auto; padding: 21px 9px 12px; background: linear-gradient(180deg, #ebebff00, #ebebffcc 21px, #f5f5ff); backdrop-filter: blur(9px); }
+.fliggy-composer-input {
+  display: flex; align-items: center; gap: 9px; min-height: 50px; padding: 6px 12px;
+  border: 1.5px solid white; border-radius: 12px;
+  background: linear-gradient(#ffffffe6, white), url("../../public/fliggy-shell/input-texture.png") center / cover;
+}
+.fliggy-shell-icon { position: relative; display: block; width: 24px; height: 24px; flex: 0 0 24px; }
+.fliggy-shell-icon img { position: absolute; max-width: none; transform: scale(.5); transform-origin: top left; }
+.fliggy-composer-input > button:first-child .fliggy-shell-icon { transform: rotate(90deg); }
+.fliggy-composer-input button { display: grid; place-items: center; flex-shrink: 0; width: 24px; height: 30px; border: 0; padding: 0; color: #0f131a; }
+.fliggy-composer-input button:disabled { cursor: not-allowed; }
+.fliggy-composer-input textarea { flex: 1; min-width: 0; width: 0; resize: none; padding: 0; border: 0; outline: none; background: transparent; color: #0f131a; font: 400 17px/1.4 "PingFang SC", "Microsoft YaHei", sans-serif; max-height: 120px; }
+.fliggy-composer-input textarea::placeholder { color: #919499; }
+.fliggy-composer-input:focus-within { border-color: #ccccff; }
+.fliggy-composer-extras { display: flex; gap: 12px; }
+.fliggy-plus { display: block; position: relative; width: 22px; height: 22px; border: 1.5px solid #0f131a; border-radius: 50%; }
+.fliggy-plus::before, .fliggy-plus::after { content: ""; position: absolute; background: #0f131a; border-radius: 3px; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 9px; height: 1.5px; }
+.fliggy-plus::after { width: 1.5px; height: 9px; }
+.fliggy-composer-input .fliggy-composer-send { width: 30px; height: 30px; border-radius: 50%; background: #6666ff; color: white; }
+.fliggy-composer-send:focus-visible { outline: 2px solid #6666ff; outline-offset: 3px; }
+.fliggy-composer-note { margin: 6px 0 0; text-align: center; font-size: 10px; line-height: 12px; color: #919499; }
+
+.chat-shell .openui-agent-welcome-screen.fliggy-welcome {
+  justify-content: flex-start; align-items: stretch; gap: 0; height: auto;
+  max-width: 780px; padding: 30px 18px 36px; color: #0f131a;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.fliggy-welcome-intro { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 30px; }
+.fliggy-welcome-pig { display: block; width: 45px; height: 45px; object-fit: contain; }
+.fliggy-welcome-intro h1 { margin: 0; font-size: 24px; font-weight: 500; line-height: 1.4; letter-spacing: 0; }
+.fliggy-welcome-tabs { display: flex; align-items: center; gap: 18px; }
+.fliggy-welcome-tabs button { position: relative; padding: 0 0 3px; border: 0; background: none; color: #0f131a; font: 500 15px/1.4 "PingFang SC", sans-serif; cursor: pointer; }
+.fliggy-welcome-tabs button[aria-pressed="true"] { background: linear-gradient(90deg, #0f131a, #6666ff); background-clip: text; color: transparent; }
+.fliggy-welcome-tabs button[aria-pressed="true"]::after { content: ""; position: absolute; width: 18px; height: 2px; border-radius: 1.5px; background: #6666ff; bottom: 0; left: 50%; transform: translateX(-50%); }
+.fliggy-welcome-queries { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding: 18px 0; }
+.fliggy-welcome-queries button { display: flex; align-items: center; gap: 6px; max-width: 100%; padding: 12px 18px 12px 12px; border: 1px solid #ffffff3d; border-radius: 12px; background: #ffffffcc; color: #0f131a; text-align: left; font: 400 14px/1.7 "PingFang SC", sans-serif; cursor: pointer; }
+.fliggy-query-star { display: block; position: relative; flex: 0 0 12px; width: 12px; height: 12px; }
+.fliggy-query-star img { display: block; max-width: none; transform: scale(.5); transform-origin: top left; }
+.fliggy-welcome button:focus-visible { outline: 2px solid #6666ff; outline-offset: 3px; }
+.fliggy-welcome-queries button:hover { background: white; }
+.fliggy-welcome-queries button:disabled { cursor: wait; }
+
+/* Figma 40995:26220. Keep the library's status lifecycle and accessible text. */
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes { width: 100%; }
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__toggle--static {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 6px;
+  width: 100%; max-width: 345px; padding: 12px 0 0; min-height: 87px;
+}
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker {
+  display: contents;
+}
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker-item {
+  position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__toggle--static::before,
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::before,
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::after {
+  content: ""; display: block; flex: none; width: 100%; height: 21px; border-radius: 9px;
+  background-image: linear-gradient(100deg, transparent 25%, #ffffffb3 50%, transparent 75%),
+    linear-gradient(90deg, #6666ff1f, #8239231f 50%, #ff8c1a00);
+  background-size: 45% 100%, 100% 100%;
+  background-repeat: no-repeat; background-position: -100% 0, 0 0;
+  clip-path: inset(0 100% 0 0);
+  animation: fliggy-thinking-reveal 320ms ease-out forwards, fliggy-thinking-sweep 1600ms linear 1060ms infinite;
+}
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__toggle--static::before {
+  width: 63.4783%;
+  background-image: linear-gradient(100deg, transparent 25%, #ffffffb3 50%, transparent 75%),
+    linear-gradient(90deg, #6666ff4d, #8239234d 50%, #ff8c1a00);
+}
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::before { animation-delay: 320ms, 1060ms; }
+.chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::after { animation-delay: 640ms, 1060ms; }
+@keyframes fliggy-thinking-reveal { to { clip-path: inset(0); } }
+@keyframes fliggy-thinking-sweep { from { background-position: -100% 0, 0 0; } to { background-position: 200% 0, 0 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__toggle--static::before,
+  .chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::before,
+  .chat-shell .openui-agent-thread-message-loading .openui-behind-the-scenes__ticker::after { animation: none; clip-path: inset(0); }
+}
+
+.chat-shell .openui-agent-container--mobile .fliggy-sidebar-header { display: none; }
+.chat-shell .openui-agent-sidebar-content:has(.fliggy-history-title) { display: flex; flex-direction: column; min-height: 0; padding-top: 18px; }
+.fliggy-history-title { margin: 0; padding: 6px 12px 12px; color: #5c5f66; font: 400 15px/1.4 "PingFang SC", sans-serif; }
+.chat-shell .openui-agent-sidebar-content:has(.fliggy-history-title) .openui-agent-thread-list-group { display: none; }
+.fliggy-sidebar-bottom { flex: none; padding: 12px 18px 18px; }
+.fliggy-new-chat { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 9px 15px; border: 0; border-radius: 999px; background: #6666ff; color: white; font: 500 15px/1.4 "PingFang SC", sans-serif; cursor: pointer; }
+.fliggy-new-chat:hover { background: #5555e8; }
+.fliggy-new-chat:focus-visible { outline: 2px solid #6666ff; outline-offset: 3px; }
+.chat-shell .openui-agent-container--mobile .openui-agent-sidebar-footer { display: none; }

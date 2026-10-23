@@ -1,0 +1,12 @@
+{
+  admin off
+  auto_https disable_redirects
+}
+fliggy.47-253-226-200.sslip.io {
+  tls {
+    issuer acme {
+      disable_http_challenge
+    }
+  }
+  reverse_proxy fliggy-proxy:8080
+}

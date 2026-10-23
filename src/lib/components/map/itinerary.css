@@ -1,0 +1,17 @@
+.iui-itinerary-map{display:flex;flex-direction:column;gap:12px;padding:18px;background:#fff;border:0;min-width:0}
+.iui-itinerary-map header p{margin:6px 0 0}
+.iui-itinerary-tabs{display:flex;gap:6px;overflow-x:auto;max-width:100%;padding-bottom:3px}
+.iui-itinerary-map button{font:inherit;font-size:14px;border:0;border-radius:6px;background:#F5F5F5;color:#0F131A;padding:9px 12px;cursor:pointer}
+.iui-itinerary-tabs button{flex:none;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.iui-itinerary-map button[aria-pressed=true],.iui-itinerary-pager button{background:#EBEBFF;color:#6666FF}
+.iui-itinerary-map button:disabled{opacity:.4;cursor:default}
+.iui-itinerary-map button:focus-visible{outline:2px solid #6666FF;outline-offset:2px}
+.iui-itinerary-detail h4{font-size:17px;font-weight:500;line-height:1.4;margin:6px 0}
+.iui-itinerary-detail p{font-size:14px;line-height:1.6;margin:0;color:#5f626b}
+.iui-itinerary-time{font-size:12px;color:#6666FF}
+.iui-itinerary-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px;font-size:12px;color:#6666FF}
+.iui-itinerary-meta span{padding:3px 6px;border-radius:12px;background:#EBEBFF}
+.iui-itinerary-pager{display:flex;align-items:center;justify-content:space-between;font-size:12px;color:#5f626b}
+.iui-itinerary-map summary{font-size:13px;color:#5f626b;cursor:pointer}
+.iui-itinerary-map ol{margin:12px 0 0;padding-left:24px;max-height:180px;overflow:auto}
+.iui-itinerary-map li{margin-bottom:6px}

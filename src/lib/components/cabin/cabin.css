@@ -1,0 +1,37 @@
+/* CabinKit structure retained; colors and spacing mapped to Fliggy tokens. */
+.iui-cabin-module{display:flex;flex-direction:column;gap:12px;padding:18px;min-width:0;background:#fff;border:0;border-radius:12px}
+.iui-cabin-module p{margin:0}.iui-cabin-source,.iui-cabin-hint{font-size:12px;line-height:1.4;color:var(--iui-muted)}
+.iui-cabin-preferences{display:flex;gap:6px;overflow-x:auto}
+.iui-cabin-preferences button{flex:none;font:500 13px/1.4 var(--iui-font);padding:6px 12px;background:var(--fliggy-color-bg);border:0;border-radius:6px;color:var(--iui-ink)}
+.iui-cabin-preferences button[aria-pressed=true]{color:#6666ff;background:#ebebff}
+.iui-cabin-legend{display:flex;flex-wrap:wrap;gap:6px;color:var(--iui-muted);font-size:10px;line-height:14px}
+.iui-cabin-viewport{max-height:360px;overflow:auto;overscroll-behavior:contain;border-radius:6px;background:#f5f5ff}
+.iui-cabin-selection{font-size:14px;line-height:1.4}.iui-cabin-selection strong{font-weight:500}.iui-cabin-selection p{margin-top:6px;color:var(--iui-muted)}
+.iui-cabin-module .ck-cabin{--ck-ink:var(--iui-ink);--ck-line:#d2d4d9;font:13px/1.4 var(--iui-font);margin:12px auto;padding:0 6px;min-width:280px}
+.iui-cabin-module .ck-nose,.iui-cabin-module .ck-tail{color:var(--iui-faint);font-size:11px;padding:12px}
+.iui-cabin-module .ck-nose{margin:0}
+.iui-cabin-module .ck-hull{padding:6px}
+.iui-cabin-module .ck-row{gap:6px;margin:6px 0}
+.iui-cabin-module .ck-aisle,.iui-cabin-module .ck-letter{font-size:11px;color:var(--iui-muted)}
+.iui-cabin-module .ck-seat{font:500 12px/1.4 var(--iui-font);color:var(--iui-ink);border:1px solid #d2d4d9;border-radius:6px;background:#f5f5f5;height:38px;box-shadow:inset 0 -3px #ffffff75}
+.iui-cabin-module .ck-seat.ck-match{background:#ebebff;color:#6666ff;border-color:#b8b8ff}
+.iui-cabin-module .ck-seat[aria-pressed=true]{background:#6666ff;color:#fff;outline:2px solid #6666ff;outline-offset:1px}
+.iui-cabin-module .ck-seat:focus-visible{outline:2px solid #6666ff;outline-offset:2px}
+.iui-cabin-module .ck-seat.ck-exit-seat{border-style:dashed;outline:none}
+.iui-cabin-module .ck-seat.ck-exit-seat[aria-pressed=true]{outline:2px solid #6666ff}
+.iui-cabin-module .ck-seat.ck-no-window{text-decoration:line-through}
+.iui-cabin-module .ck-row.ck-wing{background:#ebebff;border-inline:3px solid #d2d4d9}
+.iui-cabin-module .ck-section{margin:12px 0;gap:6px}.iui-cabin-module .ck-section strong{font-size:14px;font-weight:500}.iui-cabin-module .ck-section small{font-size:11px;color:var(--iui-muted)}
+.iui-cabin-module .ck-services{gap:6px;margin:6px 0 12px}.iui-cabin-module .ck-facility{background:#f5f5f5;border:0;border-radius:6px;padding:12px 6px;gap:6px;font-size:11px}
+.iui-cabin-module .ck-exits{gap:6px;padding:6px;background:#fff7e0;color:#5c5f66;border:1px dashed #d2d4d9;border-radius:6px;margin:12px 0;font-size:11px}
+.iui-cabin-module .ck-note{background:#f5f5f5;color:var(--iui-muted);padding:6px;border-radius:6px;margin:12px 0}
+.iui-cabin-module .ck-divider{margin:18px 0 12px;padding-top:12px;border-color:#d2d4d9}
+.iui-cabin-preferences button:focus-visible,.iui-cabin-viewport:focus-visible{outline:2px solid #6666ff;outline-offset:2px}
+@media(pointer:coarse){.iui-cabin-module .ck-seat{height:44px}}
+
+.iui-cabin-class{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--iui-muted)}
+.iui-cabin-class select{font:inherit;background:#f5f5f5;border:0;border-radius:6px;padding:6px;color:var(--iui-ink)}
+.iui-cabin-plans{display:flex;gap:6px;overflow-x:auto}
+.iui-cabin-plans button{flex:0 0 180px;display:flex;flex-direction:column;gap:6px;text-align:left;padding:12px;border:0;border-radius:6px;background:#ebebff;color:#6666ff;font:12px/1.4 var(--iui-font)}
+.iui-cabin-plans strong{font-size:14px;font-weight:500}
+.iui-cabin-plans button:focus-visible{outline:2px solid #6666ff;outline-offset:2px}

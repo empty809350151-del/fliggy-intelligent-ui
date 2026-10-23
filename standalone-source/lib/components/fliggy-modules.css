@@ -1,0 +1,62 @@
+/* 41042:11715. Existing approved typography, radii, spacing and buttons win.
+   Layouts are composable; sample booking data never lives in these styles. */
+.iui-travel-module {
+  border: 0;
+  background: var(--iui-canvas);
+  border-radius: var(--iui-radius-xl);
+}
+.iui-travel-main, .iui-travel-item-content, .iui-travel-field-content { min-width: 0; flex: 1; }
+.iui-travel-header { margin-bottom: var(--iui-space-group); }
+.iui-travel-heading { font-size: 17px; font-weight: 500; line-height: 1.4; color: var(--iui-ink); }
+.iui-travel-subtitle { margin-top: 6px; font-size: 13px; line-height: 1.4; color: var(--iui-muted); }
+.iui-travel-content { display: flex; flex-direction: column; gap: var(--iui-space-group); min-width: 0; }
+.iui-travel-actions { margin-top: 24px; }
+.iui-travel-item { display: flex; gap: var(--iui-space-group-lg); min-width: 0; align-items: center; }
+.iui-travel-item-content { display: flex; flex-direction: column; gap: 6px; overflow-wrap: anywhere; }
+.iui-travel-item-title { color: var(--iui-ink); font-size: 15px; line-height: 1.4; font-weight: 500; }
+.iui-travel-item-description { color: var(--iui-muted); font-size: 12px; line-height: 1.4; }
+.iui-travel-thumbnail { width: 70px; flex: 0 0 70px; min-height: 70px; border-radius: var(--iui-radius-xl); overflow: hidden; }
+.iui-travel-thumbnail :is(.iui-image, .iui-image-wrap) { width: 100%; }
+.iui-travel-thumbnail img { width: 70px; height: 70px; object-fit: cover; }
+.iui-travel-item-portrait .iui-travel-thumbnail img { height: 114px; }
+.iui-travel-item-portrait { align-items: stretch; }
+.iui-travel-item-actions { display: flex; justify-content: flex-end; margin-top: auto; padding-top: 6px; }
+.iui-travel-item-details { display: flex; flex-direction: column; gap: 6px; }
+.iui-day-badge { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 70px; padding: 6px; border-radius: var(--iui-radius-xl); background: linear-gradient(#ebebff, #fafaff); color: var(--fliggy-color-secondary); }
+.iui-day-badge > span { font-size: 11px; line-height: 1.4; opacity: .6; }
+.iui-day-badge > strong { font-family: var(--iui-font); font-size: 24px; line-height: 1; font-weight: 500; font-variant-numeric: tabular-nums; }
+.iui-price { display: inline-flex; align-items: baseline; gap: 3px; color: var(--fliggy-color-pay-1); white-space: nowrap; }
+.iui-price > strong { font-size: 18px; line-height: 1.4; font-weight: 500; }
+.iui-price-currency { font-size: 11px; }
+.iui-price-suffix { font-size: 12px; color: var(--iui-muted); }
+.iui-travel-field { display: grid; grid-template-columns: minmax(60px, 78px) minmax(0, 1fr); align-items: start; gap: 24px; padding-block: 12px; }
+.iui-travel-field + .iui-travel-field { border-top: 1px solid var(--iui-border); }
+.iui-travel-field-label { font-size: 14px; line-height: 1.4; color: var(--iui-faint); padding-top: 6px; overflow-wrap: anywhere; }
+.iui-travel-field-content { display: flex; flex-direction: column; gap: 6px; }
+.iui-travel-field-note { color: var(--iui-faint); font-size: 12px; line-height: 1.4; }
+.iui-travel-field-error { color: var(--iui-danger); font-size: 12px; line-height: 1.4; }
+.iui-travel-field .iui-input { background: transparent; border-color: transparent; box-shadow: none; }
+.iui-travel-field .iui-input:focus { border-color: var(--iui-focus); }
+.iui-travel-status, .iui-travel-notice { flex-direction: row; align-items: center; gap: 24px; }
+.iui-travel-notice { align-items: flex-start; gap: 12px; }
+.iui-travel-status .iui-travel-header, .iui-travel-notice .iui-travel-header { margin-bottom: 6px; }
+.iui-travel-status-icon { width: 45px; height: 45px; border-radius: 50%; background: var(--fliggy-color-blue-5); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.iui-design-icon { display: inline-block; flex-shrink: 0; position: relative; }
+.iui-design-icon img { display: block; position: absolute; }
+.iui-travel-refresh { display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; height: 32px; background: transparent; cursor: pointer; border-radius: 6px; }
+.iui-travel-refresh:focus-visible { outline: 2px solid var(--iui-focus); outline-offset: 2px; }
+.iui-travel-refresh:disabled { opacity: .4; cursor: not-allowed; }
+.iui-travel-choices { border: 0; }
+.iui-travel-choices :is(.iui-check, .iui-choice) { display: flex; width: 100%; border: 0; border-bottom: 1px solid var(--iui-border); border-radius: 0; min-height: 51px; padding: 12px 0; background: transparent; gap: 24px; }
+.iui-travel-choices .iui-check > input { width: 21px; height: 21px; accent-color: var(--fliggy-color-secondary); }
+.iui-travel-choices .iui-radio-list > div { gap: 0; }
+.iui-travel-choices .iui-travel-actions { display: flex; justify-content: flex-end; }
+.iui-travel-table, .iui-travel-table-left { overflow: hidden; }
+.iui-travel-table .iui-table th, .iui-travel-table-left .iui-table th { background: var(--iui-surface); }
+.iui-travel-table-left .iui-table tbody th, .iui-travel-table-left .iui-table tbody td:first-child { background: var(--iui-surface); font-weight: 500; }
+.iui-travel-module.iui-travel-media { width: auto; flex: initial; }
+.iui-travel-followup .iui-button-ghost { background: var(--iui-canvas); border: 1px solid var(--iui-border); border-radius: var(--iui-radius-xl); white-space: normal; text-align: left; justify-content: flex-start; min-height: 42px; }
+@media (max-width: 640px) {
+  .iui-travel-item { gap: 12px; }
+  .iui-travel-field { gap: 12px; }
+}

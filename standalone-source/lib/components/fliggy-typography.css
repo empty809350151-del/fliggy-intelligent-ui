@@ -1,0 +1,72 @@
+/* Fliggy 246:149. 2× design → CSS px. Imported after legacy component styles.
+   Only typography is migrated here; component geometry remains unchanged. */
+:root {
+  --fliggy-type-h1: 24px;
+  --fliggy-type-h2: 21px;
+  --fliggy-type-h3: 18px;
+  --fliggy-type-body: 15px;
+  --fliggy-type-body1: 14px;
+  --fliggy-type-body2: 13px;
+  --fliggy-type-body3: 12px;
+  --fliggy-type-body4: 11px;
+  --fliggy-type-caption: 10px;
+  --fliggy-type-caption1: 9px;
+}
+:where([class*="iui-"]) {
+  font-family: var(--iui-font);
+}
+:where(.iui-col, .iui-row, .iui-card, .iui-box, .iui-grid, .iui-popover) {
+  font-family: var(--iui-font);
+  font-size: var(--fliggy-type-body);
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+.iui-title { line-height: 1.4; letter-spacing: 0; }
+.iui-title-sm { font-size: var(--fliggy-type-body); }
+.iui-title-md { font-size: var(--fliggy-type-h3); }
+.iui-title-lg { font-size: var(--fliggy-type-h2); }
+.iui-title-xl { font-size: var(--fliggy-type-h1); }
+/* Compatibility sizes: preserve original display hierarchy beyond Fliggy's 24px scale. */
+.iui-title-2xl { font-size: 32px; }
+.iui-title-3xl { font-size: 40px; }
+@media (max-width: 640px) {
+  .iui-title-lg { font-size: var(--fliggy-type-h3); }
+  .iui-title-2xl { font-size: 28px; }
+  .iui-title-3xl { font-size: 34px; }
+}
+.iui-card > :is(.iui-title-sm, .iui-title-md):first-child,
+.iui-card > .iui-row:first-child :is(.iui-title-sm, .iui-title-md) {
+  font-size: var(--fliggy-type-body1); line-height: 1.4;
+}
+.iui-card > :is(.iui-title-sm, .iui-title-md):first-child + :is(.iui-caption, .iui-text),
+.iui-card > .iui-row:first-child :is(.iui-title-sm, .iui-title-md) + :is(.iui-caption, .iui-text) {
+  font-size: var(--fliggy-type-body2); line-height: 1.4;
+}
+:is(.iui-card, .iui-grid > .iui-flow, .iui-carousel-item > .iui-flow) > :is(.iui-title-lg, .iui-title-xl, .iui-title-2xl, .iui-title-3xl) {
+  font-size: var(--fliggy-type-h3); line-height: 1.4; letter-spacing: 0;
+}
+.iui-text, .iui-text-md, .iui-markdown, .iui-quote > p {
+  font-size: var(--fliggy-type-body); line-height: 1.7;
+}
+:is(.iui-card, .iui-grid > .iui-flow, .iui-carousel-item > .iui-flow) > .iui-text:not(.iui-text-xs, .iui-text-sm, .iui-text-lg) {
+  font-size: var(--fliggy-type-body); line-height: 1.7;
+}
+.iui-text-xs { font-size: var(--fliggy-type-body3); line-height: 1.4; }
+.iui-text-sm { font-size: var(--fliggy-type-body1); line-height: 1.4; }
+.iui-text-lg { font-size: var(--fliggy-type-h3); line-height: 1.4; }
+.iui-caption { font-size: var(--fliggy-type-body3); line-height: 1.4; }
+.iui-label { font-size: var(--fliggy-type-body1); }
+.iui-badge, .iui-button, .iui-table, .iui-choice, .iui-choice-description,
+.iui-list-description, .iui-popover { line-height: 1.4; }
+.iui-list-description { font-size: var(--fliggy-type-body1); }
+.iui-input { font-family: var(--iui-font); font-size: var(--fliggy-type-body); }
+.iui-md-h { line-height: 1.4; letter-spacing: 0; }
+.iui-md-h1 { font-size: var(--fliggy-type-h2); }
+.iui-md-h2 { font-size: var(--fliggy-type-h3); }
+.iui-md-h3, .iui-md-h4 { font-size: var(--fliggy-type-body); }
+.iui-timer-time { font-size: 32px; line-height: 1.4; letter-spacing: 0; }
+.iui-flashcard-word { font-size: var(--fliggy-type-h2); line-height: 1.4; letter-spacing: 0; }
+.iui-flashcard-face.is-back .iui-flashcard-word { font-size: var(--fliggy-type-body); }
+.iui-map-label, .iui-map-pill, .iui-map-note, .iui-map-error, .iui-map-overview { line-height: 1.4; }
+.iui-map .iui-map-surface .maplibregl-ctrl-attrib { font-size: var(--fliggy-type-caption1); line-height: 1.4; }

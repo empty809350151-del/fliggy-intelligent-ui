@@ -1,0 +1,56 @@
+/* Figma 40995:26240 / 26246 / 26241. Button geometry uses the 2× artboard.
+   Page/layout spacing retains the separately confirmed 1× scale. */
+:root:not([data-openui-theme="dark"]), [data-theme="light"] {
+  --fliggy-button-bg: var(--fliggy-color-indigo-4);
+  --fliggy-button-ink: var(--fliggy-color-secondary);
+  --fliggy-button-secondary-bg: var(--fliggy-color-bg);
+  --fliggy-button-secondary-ink: var(--fliggy-color-darkgray);
+}
+:root[data-openui-theme="dark"], [data-theme="dark"] {
+  --fliggy-button-bg: var(--iui-brand);
+  --fliggy-button-ink: var(--iui-on-brand);
+  --fliggy-button-secondary-bg: var(--iui-surface);
+  --fliggy-button-secondary-ink: var(--iui-ink);
+}
+.iui-button:is(.iui-button-solid, .iui-button-outline, .iui-button-soft) {
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.iui-button:is(.iui-button-solid, .iui-button-outline, .iui-button-soft).iui-button-sm {
+  min-height: 33px;
+  min-width: 60px;
+  padding-inline: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.iui-button > svg { flex-shrink: 0; }
+.iui-button-solid:not(.iui-button-danger, .iui-button-success) {
+  background: var(--fliggy-button-bg);
+  color: var(--fliggy-button-ink);
+}
+.iui-button:is(.iui-button-outline, .iui-button-soft):not(.iui-button-danger, .iui-button-success) {
+  background: var(--fliggy-button-secondary-bg);
+  color: var(--fliggy-button-secondary-ink);
+  border-color: transparent;
+}
+/* Figma supplies resting states only. Preserve feedback and disabled behavior. */
+.iui-button-solid:not(.iui-button-danger, .iui-button-success, :disabled):hover {
+  background: color-mix(in srgb, var(--fliggy-button-bg), var(--fliggy-button-ink) 8%);
+}
+.iui-button-solid:not(.iui-button-danger, .iui-button-success, :disabled):active {
+  background: color-mix(in srgb, var(--fliggy-button-bg), var(--fliggy-button-ink) 16%);
+}
+.iui-button:is(.iui-button-outline, .iui-button-soft):not(.iui-button-danger, .iui-button-success, :disabled):hover {
+  background: color-mix(in srgb, var(--fliggy-button-secondary-bg), var(--fliggy-button-secondary-ink) 5%);
+}
+.iui-button:is(.iui-button-outline, .iui-button-soft):not(.iui-button-danger, .iui-button-success, :disabled):active {
+  background: color-mix(in srgb, var(--fliggy-button-secondary-bg), var(--fliggy-button-secondary-ink) 10%);
+}

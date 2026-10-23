@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fliggy 手机预览</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; padding: 24px; background: #f2f3f5; color: #0f131a; font-family: "PingFang SC", sans-serif; }
+      header { margin: 0 auto 16px; max-width: 390px; font-size: 14px; display: flex; justify-content: space-between; }
+      a { color: #6666ff; }
+      iframe { display: block; width: 390px; max-width: 100%; height: 844px; margin: auto; border: 0; background: white; border-radius: 18px; box-shadow: 0 4px 24px #0f131a14; }
+      html.embedded, html.embedded body { height: 100%; padding: 0; overflow: hidden; }
+      html.embedded header { display: none; }
+      html.embedded iframe { width: 100%; height: 100%; border-radius: 24px; box-shadow: none; }
+    </style>
+  </head>
+  <body>
+    <header><span>手机预览 · 390 × 844</span><a href="./">返回完整页面</a></header>
+    <iframe src="./" title="Fliggy 手机尺寸交互预览"></iframe>
+    <script src="./mobile-preview-bridge.js"></script>
+    <script>
+      if (new URLSearchParams(location.search).get("view") === "modules") {
+        document.querySelector("iframe").src = "./gallery?theme=light#fliggy-travel-cards";
+      }
+      if (new URLSearchParams(location.search).get("view") === "compact") {
+        document.querySelector("iframe").src = "./gallery?theme=light#fliggy-compact-answer";
+      }
+      if (new URLSearchParams(location.search).get("view") === "controls") {
+        document.querySelector("iframe").src = "./gallery?theme=light#fliggy-controls";
+      }
+    </script>
+  </body>
+</html>

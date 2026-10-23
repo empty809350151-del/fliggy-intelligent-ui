@@ -1,0 +1,4736 @@
+{
+  "cathay32p": {
+    "name": "国泰 A321neo 32P",
+    "width": 366,
+    "blocks": [
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory"
+          },
+          {
+            "kind": "galley"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "前舱门 / 出口"
+      },
+      {
+        "type": "section",
+        "title": "商务舱",
+        "subtitle": "BUSINESS · 12 席 · 2–2"
+      },
+      {
+        "type": "row",
+        "header": true,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 11,
+        "cabin": "business",
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 12,
+        "cabin": "business",
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 14,
+        "cabin": "business",
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "section",
+        "title": "经济舱",
+        "subtitle": "ECONOMY · 183 席 · 3–3"
+      },
+      {
+        "type": "row",
+        "header": true,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 39,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 40,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 41,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 42,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 43,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 44,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 45,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 46,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "机翼附近（约 47–54 排，示意）"
+      },
+      {
+        "type": "row",
+        "number": 47,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 48,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "row",
+        "number": 49,
+        "cabin": "economy",
+        "wing": true,
+        "exit": true,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "row",
+        "number": 50,
+        "cabin": "economy",
+        "wing": true,
+        "exit": true,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 51,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 52,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 53,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 54,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "机翼后方区域"
+      },
+      {
+        "type": "row",
+        "number": 55,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 56,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 57,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 58,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 59,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 60,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": true,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": true,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 61,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 62,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 63,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 64,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 65,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 66,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 67,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 68,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "noWindow": false,
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 69,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            {
+              "letter": "H",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "J",
+              "noWindow": false,
+              "recommended": false
+            },
+            {
+              "letter": "K",
+              "noWindow": false,
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "洗手间 × 2"
+          },
+          {
+            "kind": "lavatory",
+            "accessible": true,
+            "label": "无障碍洗手间"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "后舱门 / 出口"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley",
+            "label": "后备餐间"
+          }
+        ]
+      }
+    ]
+  },
+  "regional": {
+    "name": "单过道 2–2 · 结构示例，非航空公司配置",
+    "width": 360,
+    "blocks": [
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley"
+          },
+          {
+            "kind": "lavatory"
+          }
+        ]
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "section",
+        "title": "单过道 2–2",
+        "subtitle": "仅验证组件组合，不代表真实机型配置"
+      },
+      {
+        "type": "row",
+        "header": true,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 1,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 2,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 3,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 4,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 5,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 6,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory"
+          },
+          {
+            "kind": "galley"
+          }
+        ]
+      }
+    ]
+  },
+  "widebody": {
+    "name": "双过道 3–3–3 · 结构示例，非航空公司配置",
+    "width": 540,
+    "blocks": [
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley"
+          },
+          {
+            "kind": "lavatory"
+          }
+        ]
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "section",
+        "title": "双过道 3–3–3",
+        "subtitle": "仅验证组件组合，不代表真实机型配置"
+      },
+      {
+        "type": "row",
+        "header": true,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 1,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 2,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 3,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 4,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 5,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 6,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ]
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "exit"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory"
+          },
+          {
+            "kind": "galley"
+          }
+        ]
+      }
+    ]
+  },
+  "a320": {
+    "name": "Airbus A320-200 · 180 座通用示意",
+    "width": 366,
+    "blocks": [
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "前洗手间（示意）"
+          },
+          {
+            "kind": "galley",
+            "label": "前厨房（示意）"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "前舱门 / 出口"
+      },
+      {
+        "type": "section",
+        "title": "经济舱",
+        "subtitle": "ECONOMY · 180 席 · 3–3"
+      },
+      {
+        "type": "row",
+        "header": true,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "D",
+            "E",
+            "F"
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 1,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 2,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 3,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 4,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 5,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 6,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 7,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 8,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": true
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": true
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 9,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 10,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "机翼区域示意 · 非精确窗景边界"
+      },
+      {
+        "type": "row",
+        "number": 11,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "翼上出口（排号示意）"
+      },
+      {
+        "type": "row",
+        "number": 12,
+        "cabin": "economy",
+        "wing": true,
+        "exit": true,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "翼上出口（排号示意）"
+      },
+      {
+        "type": "row",
+        "number": 13,
+        "cabin": "economy",
+        "wing": true,
+        "exit": true,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 14,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 15,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 16,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 17,
+        "cabin": "economy",
+        "wing": true,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "note",
+        "text": "机翼后方区域（示意）"
+      },
+      {
+        "type": "row",
+        "number": 18,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 19,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 20,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 21,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 22,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 23,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 24,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 25,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 26,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 27,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 28,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 29,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "row",
+        "number": 30,
+        "cabin": "economy",
+        "wing": false,
+        "exit": false,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "recommended": false
+            },
+            {
+              "letter": "B",
+              "recommended": false
+            },
+            {
+              "letter": "C",
+              "recommended": false
+            }
+          ],
+          [
+            {
+              "letter": "D",
+              "recommended": false
+            },
+            {
+              "letter": "E",
+              "recommended": false
+            },
+            {
+              "letter": "F",
+              "recommended": false
+            }
+          ]
+        ]
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "后洗手间（示意）"
+          },
+          {
+            "kind": "lavatory",
+            "label": "后洗手间（示意）"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "后舱门 / 出口"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley",
+            "label": "后厨房（示意）"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "status": "generic-schematic",
+      "assumptions": "排号1–30、出口排12/13、机翼区11–17及设施位置皆为组合示意，不代表特定航司。",
+      "source": "https://www.aircraft.airbus.com/en/aircraft/a320-family/a320ceo"
+    }
+  },
+  "airchinaA320158": {
+    "name": "国航 A320 · 158座",
+    "width": 366,
+    "blocks": [
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "前洗手间"
+          },
+          {
+            "kind": "galley",
+            "label": "前厨房"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "前舱门"
+      },
+      {
+        "type": "section",
+        "title": "商务舱",
+        "subtitle": "8座 · 第1–2排 · 2–2"
+      },
+      {
+        "type": "row",
+        "number": 1,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "J",
+            "L"
+          ]
+        ],
+        "cabin": "business",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 2,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "J",
+            "L"
+          ]
+        ],
+        "cabin": "business",
+        "exit": false
+      },
+      {
+        "type": "section",
+        "title": "经济舱",
+        "subtitle": "150座 · 第11–35排 · 3–3"
+      },
+      {
+        "type": "row",
+        "number": 11,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 12,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 13,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 14,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 15,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 16,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 17,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 18,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 19,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "row",
+        "number": 20,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 21,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 22,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 23,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 24,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 25,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 26,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 27,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 28,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 29,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 30,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 31,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 32,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 33,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 34,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 35,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "J",
+            "K",
+            "L"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          },
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "后舱门"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley",
+            "label": "后厨房"
+          }
+        ]
+      }
+    ]
+  },
+  "csairA32032h": {
+    "name": "南航 A320 · 32H · 166座",
+    "width": 366,
+    "blocks": [
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "前洗手间"
+          },
+          {
+            "kind": "galley",
+            "label": "前厨房"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "前舱门"
+      },
+      {
+        "type": "section",
+        "title": "商务舱",
+        "subtitle": "4座 · 第5排 · 2–2"
+      },
+      {
+        "type": "row",
+        "number": 5,
+        "groups": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "H",
+            "K"
+          ]
+        ],
+        "cabin": "business",
+        "exit": false
+      },
+      {
+        "type": "section",
+        "title": "明珠经济舱",
+        "subtitle": "24座 · 第25–28排 · 3–3"
+      },
+      {
+        "type": "row",
+        "number": 25,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "premium",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 26,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "premium",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 27,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "premium",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 28,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "premium",
+        "exit": false
+      },
+      {
+        "type": "section",
+        "title": "经济舱",
+        "subtitle": "138座 · 保留原图跳号 · 3–3"
+      },
+      {
+        "type": "row",
+        "number": 31,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 32,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 33,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 34,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 49,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 50,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "row",
+        "number": 52,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 53,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 54,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 55,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 56,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 57,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 58,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 59,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 60,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 61,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 62,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 63,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 64,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 65,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 66,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 67,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 68,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          },
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "后舱门"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley",
+            "label": "后厨房"
+          }
+        ]
+      }
+    ]
+  },
+  "hainanA320neo172": {
+    "name": "海航 A320neo · 布局1 · 172座",
+    "width": 366,
+    "blocks": [
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "前洗手间"
+          },
+          {
+            "kind": "galley",
+            "label": "前厨房"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "前舱门"
+      },
+      {
+        "type": "section",
+        "title": "公务舱",
+        "subtitle": "4座 · 原图未标排号"
+      },
+      {
+        "type": "row",
+        "number": 0,
+        "groups": [
+          [
+            {
+              "letter": "A",
+              "id": "公务舱A"
+            },
+            {
+              "letter": "C",
+              "id": "公务舱C"
+            }
+          ],
+          [
+            {
+              "letter": "H",
+              "id": "公务舱H"
+            },
+            {
+              "letter": "K",
+              "id": "公务舱K"
+            }
+          ]
+        ],
+        "cabin": "business",
+        "exit": false,
+        "rowLabel": "—"
+      },
+      {
+        "type": "note",
+        "text": "公务舱使用字母位置标识，原图未给出排号；不生成虚构座位号。"
+      },
+      {
+        "type": "section",
+        "title": "经济舱",
+        "subtitle": "168座 · 第31–58排 · 3–3"
+      },
+      {
+        "type": "row",
+        "number": 31,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 32,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 33,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 34,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 35,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 36,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 37,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 38,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 39,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "exit",
+        "label": "翼上紧急出口"
+      },
+      {
+        "type": "row",
+        "number": 40,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": true
+      },
+      {
+        "type": "row",
+        "number": 41,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 42,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 43,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 44,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 45,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 46,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 47,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 48,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 49,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 50,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 51,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 52,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 53,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 54,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 55,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 56,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 57,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "row",
+        "number": 58,
+        "groups": [
+          [
+            "A",
+            "B",
+            "C"
+          ],
+          [
+            "H",
+            "J",
+            "K"
+          ]
+        ],
+        "cabin": "economy",
+        "exit": false
+      },
+      {
+        "type": "services",
+        "columns": 2,
+        "items": [
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          },
+          {
+            "kind": "lavatory",
+            "label": "后洗手间"
+          }
+        ]
+      },
+      {
+        "type": "exit",
+        "label": "后舱门"
+      },
+      {
+        "type": "services",
+        "items": [
+          {
+            "kind": "galley",
+            "label": "后厨房"
+          }
+        ]
+      }
+    ]
+  }
+}

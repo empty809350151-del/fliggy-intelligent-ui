@@ -1,0 +1,55 @@
+name: openui-fliggy
+services:
+  app:
+    build: .
+    image: openui-fliggy:20261021
+    container_name: fliggy-app
+    restart: unless-stopped
+    env_file: runtime.env
+    mem_limit: 512m
+    cpus: 0.75
+    pids_limit: 128
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    networks: [fliggy]
+    logging:
+      options: {max-size: 10m, max-file: '2'}
+  proxy:
+    image: nginx:stable-alpine
+    container_name: fliggy-proxy
+    restart: unless-stopped
+    depends_on: [app]
+    mem_limit: 64m
+    cpus: 0.15
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - '127.0.0.1:13100:8080'
+    networks: [fliggy]
+    logging:
+      options: {max-size: 5m, max-file: '2'}
+  https:
+    image: caddy:2-alpine
+    container_name: fliggy-https
+    restart: unless-stopped
+    profiles: [public]
+    depends_on: [proxy]
+    mem_limit: 96m
+    cpus: 0.15
+    ports: ['443:443']
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks: [fliggy]
+    logging:
+      options: {max-size: 5m, max-file: '2'}
+networks:
+  fliggy:
+    name: openui-fliggy-network
+volumes:
+  caddy_data:
+  caddy_config:
